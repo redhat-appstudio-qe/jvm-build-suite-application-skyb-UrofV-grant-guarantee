@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-aiovdc
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-sfbb-tenant/jvm-build-suite-application-skyb/jvm-build-suite-component-aiovdc@sha256:ff106811f169cc4127b453d953c301dafc7da7761fabae9f0f42cda3f4f03756
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
